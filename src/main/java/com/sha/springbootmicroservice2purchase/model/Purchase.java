@@ -20,7 +20,7 @@ public class Purchase {
     private Long courseId;
 
     @Column(name = "title", nullable = false)
-    private String courseTitle;
+    private String title;
 
     @Column(name = "price", nullable = false)
     private Double price;
